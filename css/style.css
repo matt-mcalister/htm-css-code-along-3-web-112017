@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+
+
+/* This is a comment! */
+
+
+/* CSS Syntax:
+
+selector {
+    property: value;
+    property: value;
+}
+
+*/
+
+
+/* Type selector */
+
+p { /* slect all <p> elements */
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", serif;*/
+  font: normal 0.75em/1.5em Georgia, "Times New Roman", serif;
+  color: #777;
+  text-align: right;
+}
