@@ -67,3 +67,8 @@ figcaption {
   color: black;
   text-decoration: underline;
 }
+
+#detailsa:active {
+color: red;
+
+}
