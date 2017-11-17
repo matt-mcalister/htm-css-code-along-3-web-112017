@@ -43,11 +43,15 @@ figcaption {
 /* ID selector (appy to one unique element per page) */
 
 #logo { /* select elements with id="logo" */
-  background: aqua; 
+  background: aqua;
 }
 
 /* Descendant Selector */
 
 #logo h1 { /* selects <h1> if inside the id="logo" */
   font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 { /* selects <h2> if inside the id="logo" */
+  font-family: 'Elsie Swash Caps', cursive;
 }
